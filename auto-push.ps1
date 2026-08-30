@@ -13,7 +13,7 @@ $action = {
     $changes = git status --porcelain
 
     if ($changes) {
-        git commit -m "Auto update"
+        git commit -m "initial update"
         git push
         Write-Host "Changes pushed to GitHub."
     }
