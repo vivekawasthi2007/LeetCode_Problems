@@ -80,6 +80,6 @@ class Solution {
         int first = obj1.findFirst(nums,target);
         int last = obj1.findLast(nums,target);
         int[] res = {first,last};
-        System.out.println(res);
+        System.out.println(java.util.Arrays.toString(res));
     }
 }
