@@ -1,4 +1,4 @@
-ppublic class Solution {
+ class Solution {
 
     public static boolean isValidSudoku(char[][] board) {
 
