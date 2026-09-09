@@ -1,7 +1,7 @@
-class Solution {
+class LP14 {
     public static void main(String args[]){
         String[] strs = {"flower","flow","flight"};
-        Solution obj1 = new Solution();
+        LP14 obj1 = new LP14();
         String res = obj1.longestCommonPrefix(strs);
         System.out.println(res);
     }
