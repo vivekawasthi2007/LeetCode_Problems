@@ -1,4 +1,4 @@
-class Solution {
+class LP5 {
     public String longestPalindrome(String s) {
         if(s.length() < 2){
             return s;
@@ -26,7 +26,7 @@ class Solution {
     }
     public static void main(String args[]){
         String s = "babad";
-        Solution obj = new Solution();
+        LP5 obj = new LP5();
         String ans = obj.longestPalindrome(s);
         System.out.println(ans);
     }
