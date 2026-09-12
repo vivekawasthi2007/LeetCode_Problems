@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class LP15 {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums);
@@ -34,7 +34,7 @@ class Solution {
         return result;
     }
 public static void main(String args[]){
-    Solution obj1 = new Solution();
+    LP15 obj1 = new LP15();
     int[] nums = {-1,0,-1,2,1,-4};
     List<List<Integer>> ans = obj1.threeSum(nums);
     System.out.println(ans);
