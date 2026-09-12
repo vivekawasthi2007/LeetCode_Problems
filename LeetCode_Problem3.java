@@ -1,4 +1,4 @@
-class Solution {
+class LP3 {
     public int lengthOfLongestSubstring(String s) {
         int left = 0; 
         int maxLength = 0;
@@ -15,7 +15,7 @@ class Solution {
     }
     public static void main(String args[]){
         String s = "abcabcbb";
-        Solution obj1 = new Solution();
+        LP3 obj1 = new LP3();
         int ans = obj1.lengthOfLongestSubstring(s);
         System.out.println(ans);
     }
