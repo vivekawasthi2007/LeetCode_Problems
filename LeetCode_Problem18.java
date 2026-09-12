@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class LP18 {
     public List<List<Integer>> fourSum(int[] nums, int target) {
 
         List<List<Integer>> result = new ArrayList<>();
@@ -65,7 +65,7 @@ class Solution {
         return result;
     }
     public static void main(String args[]){
-        Solution obj1 = new Solution();
+        LP18 obj1 = new LP18();
         int[] nums = {1,0,-1,0,-2,2};
         int target = 0;
         List<List<Integer>> ans = obj1.fourSum(nums, target);
