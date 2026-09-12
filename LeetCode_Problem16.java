@@ -1,5 +1,5 @@
 import java.util.Arrays;
-class Solution {
+class LP16 {
     public int threeSumClosest(int[] nums, int target) {
         if(nums == null || nums.length<3){
             return 0;
@@ -33,7 +33,7 @@ class Solution {
       return closestSum;  
     }
     public static void main(String args[]){
-        Solution obj1 = new Solution();
+        LP16 obj1 = new LP16();
         int[] nums = {-1,2,1,-4};
         int target = 1;
         int ans = obj1.threeSumClosest( nums, target);
