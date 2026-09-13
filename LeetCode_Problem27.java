@@ -1,4 +1,4 @@
-class Solution {
+class LP27 {
     public int removeElement(int[] nums, int val) {
         if(nums.length == 0){
             return 0;
@@ -13,7 +13,7 @@ class Solution {
         return j;
     }
     public static void main(String args[]){
-        Solution obj1 = new Solution();
+        LP27 obj1 = new LP27();
         int[] nums = {3,2,2,3};
         int val = 3;
         int ans = obj1.removeElement(nums,val);
