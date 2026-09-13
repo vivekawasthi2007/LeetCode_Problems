@@ -16,7 +16,7 @@ class LP1672 {
     }
     public static void main(String args[]){
         LP1672 obj = new LP1672();
-        int[][] accounts = {{1,3,6},{2,3,6,},{1,2,3,4}};
+        int[][] accounts = {{1,3,6},{2,3,6},{1,2,3,4}};
         int answer = obj.maximumWealth(accounts);
         System.out.println(answer);
     }
