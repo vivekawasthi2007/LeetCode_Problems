@@ -1,5 +1,5 @@
 import java.util.Arrays;
-class Solution {
+class LP31 {
     public void nextPermutation(int[] nums) {
         int i = nums.length - 2;
         while(i>=0 && nums[i]>=nums[i+1]){
@@ -32,7 +32,7 @@ class Solution {
   
     public static void main(String[] args){
         int[] nums = {1,2,3};
-        Solution obj1 = new Solution();
+        LP31 obj1 = new LP31();
         obj1.nextPermutation(nums);
       
         System.out.print(Arrays.toString(nums));
