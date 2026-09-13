@@ -1,4 +1,4 @@
-class Solution {
+class LP26 {
     public int removeDuplicates(int[] nums) {
         if(nums.length == 0){
             return 0;
@@ -13,7 +13,7 @@ class Solution {
         return j;
     }
     public static void main(String args[]){
-        Solution obj1 = new Solution();
+        LP26 obj1 = new LP26();
         int[] nums = {0,0,1,1,1,2,2,3,3,4};
         int ans  = obj1.removeDuplicates(nums);
         System.out.println(ans);
