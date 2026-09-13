@@ -1,4 +1,4 @@
-class Solution {
+class LP33 {
     public int search(int[] nums, int target) {
         if(nums.length == 0){
             return -1;
@@ -30,7 +30,7 @@ class Solution {
         return -1;
     }
     public static void main(String args[]){
-        Solution obj1 = new Solution();
+        LP33 obj1 = new LP33();
         int[] nums = {4,5,6,7,0,1,2};
         int target = 0;
         int ans = obj1.search(nums,target);
