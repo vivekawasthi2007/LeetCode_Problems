@@ -29,7 +29,7 @@ Convert a given integer `num` into a Roman numeral representation.
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem12.java](LeetCode_Problem12.java))
+## 💻 Java Solution ([LeetCode_Problem12.java](../LeetCode_Problem12.java))
 
 ```java
 class LP12 {

@@ -32,7 +32,7 @@ You are given two non-empty linked lists representing two non-negative integers.
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem2.java](LeetCode_Problem2.java))
+## 💻 Java Solution ([LeetCode_Problem2.java](../LeetCode_Problem2.java))
 
 ```java
 class Main {

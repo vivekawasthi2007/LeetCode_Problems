@@ -30,7 +30,7 @@ Implement `myAtoi(string s)` to convert a string to a 32-bit signed integer acco
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem8.java](LeetCode_Problem8.java))
+## 💻 Java Solution ([LeetCode_Problem8.java](../LeetCode_Problem8.java))
 
 ```java
 class LP8 {

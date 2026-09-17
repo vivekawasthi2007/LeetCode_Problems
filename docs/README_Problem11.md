@@ -30,7 +30,7 @@ Given an integer array `height` of length `n`, find two lines that together with
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem11.java](LeetCode_Problem11.java))
+## 💻 Java Solution ([LeetCode_Problem11.java](../LeetCode_Problem11.java))
 
 ```java
 class Solution{

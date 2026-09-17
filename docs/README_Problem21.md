@@ -30,7 +30,7 @@ Merge two sorted linked lists into one sorted list and return its head.
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem21.java](LeetCode_Problem21.java))
+## 💻 Java Solution ([LeetCode_Problem21.java](../LeetCode_Problem21.java))
 
 ```java
 class Main {

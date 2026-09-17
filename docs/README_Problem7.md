@@ -30,7 +30,7 @@ Given a signed 32-bit integer `x`, return `x` with its digits reversed. If rever
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem7.java](LeetCode_Problem7.java))
+## 💻 Java Solution ([LeetCode_Problem7.java](../LeetCode_Problem7.java))
 
 ```java
 class LP7 {

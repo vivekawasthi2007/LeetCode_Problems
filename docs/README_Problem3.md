@@ -31,7 +31,7 @@ Given a string `s`, find the length of the longest substring without duplicate c
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem3.java](LeetCode_Problem3.java))
+## 💻 Java Solution ([LeetCode_Problem3.java](../LeetCode_Problem3.java))
 
 ```java
 class LP3 {

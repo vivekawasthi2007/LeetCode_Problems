@@ -31,7 +31,7 @@ Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem20.java](LeetCode_Problem20.java))
+## 💻 Java Solution ([LeetCode_Problem20.java](../LeetCode_Problem20.java))
 
 ```java
 import java.util.Stack;

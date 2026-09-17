@@ -30,7 +30,7 @@ Write a function to find the longest common prefix string amongst an array of st
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem14.java](LeetCode_Problem14.java))
+## 💻 Java Solution ([LeetCode_Problem14.java](../LeetCode_Problem14.java))
 
 ```java
 class LP14 {

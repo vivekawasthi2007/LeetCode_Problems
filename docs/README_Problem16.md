@@ -31,7 +31,7 @@ Given an integer array `nums` and `target`, find three integers in `nums` whose 
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem16.java](LeetCode_Problem16.java))
+## 💻 Java Solution ([LeetCode_Problem16.java](../LeetCode_Problem16.java))
 
 ```java
 import java.util.Arrays;

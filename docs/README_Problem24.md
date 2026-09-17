@@ -33,7 +33,7 @@ Given a linked list, swap every two adjacent nodes and return its head in-place 
 
 ---
 
-## 💻 Java Solution ([LeetCode _Problem24.java](LeetCode _Problem24.java))
+## 💻 Java Solution ([LeetCode _Problem24.java](../LeetCode _Problem24.java))
 
 ```java
 class LP24 {

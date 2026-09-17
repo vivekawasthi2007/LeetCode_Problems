@@ -30,7 +30,7 @@ Given an array `nums` of integers, return how many of them contain an even numbe
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem1295.java](LeetCode_Problem1295.java))
+## 💻 Java Solution ([LeetCode_Problem1295.java](../LeetCode_Problem1295.java))
 
 ```java
 class LP1295 {

@@ -30,7 +30,7 @@ Increment large integer represented by an array of digits by one.
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem66.java](LeetCode_Problem66.java))
+## 💻 Java Solution ([LeetCode_Problem66.java](../LeetCode_Problem66.java))
 
 ```java
 class Solution {

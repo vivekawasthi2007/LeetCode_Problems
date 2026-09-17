@@ -32,7 +32,7 @@ Given a string `s`, return the longest palindromic substring in `s`.
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem5.java](LeetCode_Problem5.java))
+## 💻 Java Solution ([LeetCode_Problem5.java](../LeetCode_Problem5.java))
 
 ```java
 class LP5 {

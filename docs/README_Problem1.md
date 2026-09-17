@@ -33,7 +33,7 @@ You may assume that each input would have exactly one solution, and you may not 
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem1.java](LeetCode_Problem1.java))
+## 💻 Java Solution ([LeetCode_Problem1.java](../LeetCode_Problem1.java))
 
 ```java
 import java.util.Arrays;

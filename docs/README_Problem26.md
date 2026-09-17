@@ -30,7 +30,7 @@ Remove duplicates in-place from a sorted array such that each unique element app
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem26.java](LeetCode_Problem26.java))
+## 💻 Java Solution ([LeetCode_Problem26.java](../LeetCode_Problem26.java))
 
 ```java
 class LP26 {

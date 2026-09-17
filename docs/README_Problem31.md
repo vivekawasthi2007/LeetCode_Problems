@@ -30,7 +30,7 @@ Rearrange numbers into the lexicographically next greater permutation in-place.
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem31.java](LeetCode_Problem31.java))
+## 💻 Java Solution ([LeetCode_Problem31.java](../LeetCode_Problem31.java))
 
 ```java
 import java.util.Arrays;

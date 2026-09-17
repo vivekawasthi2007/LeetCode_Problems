@@ -30,7 +30,7 @@ Given a roman numeral string `s`, convert it to an integer.
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem13.java](LeetCode_Problem13.java))
+## 💻 Java Solution ([LeetCode_Problem13.java](../LeetCode_Problem13.java))
 
 ```java
 class LP13 {

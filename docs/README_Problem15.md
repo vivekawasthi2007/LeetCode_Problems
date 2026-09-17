@@ -31,7 +31,7 @@ Given an integer array `nums`, return all unique triplets `[nums[i], nums[j], nu
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem15.java](LeetCode_Problem15.java))
+## 💻 Java Solution ([LeetCode_Problem15.java](../LeetCode_Problem15.java))
 
 ```java
 import java.util.*;

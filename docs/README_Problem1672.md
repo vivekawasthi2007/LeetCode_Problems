@@ -30,7 +30,7 @@ Return the wealth of the richest customer, where wealth is the sum of money in a
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem1672.java](LeetCode_Problem1672.java))
+## 💻 Java Solution ([LeetCode_Problem1672.java](../LeetCode_Problem1672.java))
 
 ```java
 class LP1672 {

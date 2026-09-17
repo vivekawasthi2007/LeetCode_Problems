@@ -30,7 +30,7 @@ Given a rotated sorted array and an integer `target`, return index of `target` i
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem33.java](LeetCode_Problem33.java))
+## 💻 Java Solution ([LeetCode_Problem33.java](../LeetCode_Problem33.java))
 
 ```java
 class LP33 {

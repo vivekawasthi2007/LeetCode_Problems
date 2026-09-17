@@ -30,7 +30,7 @@ Given an array `nums` and a value `val`, remove all instances of `val` in-place 
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem27.java](LeetCode_Problem27.java))
+## 💻 Java Solution ([LeetCode_Problem27.java](../LeetCode_Problem27.java))
 
 ```java
 class LP27 {

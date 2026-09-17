@@ -30,7 +30,7 @@ Given a sorted array of distinct integers and a target value, return index if fo
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem35.java](LeetCode_Problem35.java))
+## 💻 Java Solution ([LeetCode_Problem35.java](../LeetCode_Problem35.java))
 
 ```java
 class Solution {

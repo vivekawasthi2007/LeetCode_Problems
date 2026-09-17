@@ -29,7 +29,7 @@ Find starting and ending position of a target value in a sorted array in O(log n
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem34.java](LeetCode_Problem34.java))
+## 💻 Java Solution ([LeetCode_Problem34.java](../LeetCode_Problem34.java))
 
 ```java
 class LP34 {

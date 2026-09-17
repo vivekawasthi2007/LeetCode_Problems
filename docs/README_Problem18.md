@@ -30,7 +30,7 @@ Given an array `nums` of `n` integers and an integer `target`, return all unique
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem18.java](LeetCode_Problem18.java))
+## 💻 Java Solution ([LeetCode_Problem18.java](../LeetCode_Problem18.java))
 
 ```java
 import java.util.*;

@@ -31,7 +31,7 @@ The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number o
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem6.java](LeetCode_Problem6.java))
+## 💻 Java Solution ([LeetCode_Problem6.java](../LeetCode_Problem6.java))
 
 ```java
 class LP6 {

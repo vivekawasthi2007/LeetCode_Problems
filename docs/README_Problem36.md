@@ -30,7 +30,7 @@ Determine if a 9 x 9 Sudoku board is valid by checking rows, columns, and 3x3 su
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem36.java](LeetCode_Problem36.java))
+## 💻 Java Solution ([LeetCode_Problem36.java](../LeetCode_Problem36.java))
 
 ```java
 class Solution {

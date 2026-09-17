@@ -29,7 +29,7 @@ Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwis
 
 ---
 
-## 💻 Java Solution ([LeetCode_Problem9.java](LeetCode_Problem9.java))
+## 💻 Java Solution ([LeetCode_Problem9.java](../LeetCode_Problem9.java))
 
 ```java
 class LP9 {
