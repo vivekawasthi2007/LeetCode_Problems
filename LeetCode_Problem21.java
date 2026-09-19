@@ -1,4 +1,4 @@
- class Main {
+ class LP21 {
 
     // ListNode class
     static class ListNode {
