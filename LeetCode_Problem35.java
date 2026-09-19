@@ -1,4 +1,4 @@
-class Solution {
+class LP35 {
     public int searchInsert(int[] nums, int target) {
        int left = 0;
        int right = nums.length - 1;
@@ -18,7 +18,7 @@ class Solution {
        return left; 
     }
     public static void main(String args[]){
-        Solution obj1 = new Solution();
+        LP35 obj1 = new LP35();
         int[] nums = {1,3,5,6};
         int target = 5;
         int ans = obj1.searchInsert(nums,target);
