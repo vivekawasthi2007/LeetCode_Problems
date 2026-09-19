@@ -1,4 +1,4 @@
-class Solution {
+class LP66 {
     public int[] plusOne(int[] digits) {
         for(int i = digits.length - 1;i>=0;i--){
             if(digits[i]<9)
@@ -14,7 +14,7 @@ class Solution {
        return result;
     }
     public static void main(String args[]){
-        Solution obj1 = new Solution();
+        LP66 obj1 = new LP66();
         int[] digits = {1,2,3};
         int[] ans = obj1.plusOne(digits);
         System.out.println(java.util.Arrays.toString(ans));
