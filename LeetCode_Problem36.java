@@ -1,4 +1,4 @@
- class Solution {
+ class LP36 {
 
     public static boolean isValidSudoku(char[][] board) {
 
