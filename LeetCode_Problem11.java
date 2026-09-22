@@ -1,8 +1,8 @@
-class Solution{
+class LP11{
       public static void main(String args[])
       {
         int[] height = {1,8,6,2,5,4,8,3,7};
-        Solution solu = new Solution();
+       LP11 solu = new LP11();
         int result = solu.maxArea(height);
         System.out.println(result);
       }
