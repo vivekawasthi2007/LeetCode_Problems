@@ -1,67 +1,48 @@
-﻿# Problem 744: LeetCode Problem 744
+# 🧩 Problem 744: Find Smallest Letter Greater Than Target
 
-- **LeetCode:** [Problem 744 - LeetCode Problem 744](https://leetcode.com/problemset/)
-- **Difficulty:** 
-- **Topics:** 
+[![LeetCode](https://img.shields.io/badge/LeetCode-Problem_744-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+[![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)](#)
+[![Language](https://img.shields.io/badge/Language-Java-ED8B00?logo=openjdk&logoColor=white)](#)
 
-## Problem Statement
+## 📌 Problem Statement
+You are given an array of characters `letters` that is sorted in non-decreasing order, and a character `target`. There are at least two different characters in `letters`.
 
-Given a sorted array of lowercase letters and a target letter, find the smallest letter in the array that is strictly greater than the target.
+Return the smallest character in `letters` that is lexicographically greater than `target`. If such a character does not exist, return the first character in `letters`.
 
-If no letter is greater than the target, return the first letter in the array by wrapping around to the beginning.
+🔗 **LeetCode Link:** [Find Smallest Letter Greater Than Target - LeetCode](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
 
-## Example
+---
 
-**Input:**
+## 🏷️ Topics
+`Array` `Binary Search`
 
-```text
-letters = ['c', 'f', 'j']
-target = 'a'
-```
+---
 
-**Output:**
+## 💡 Examples
+**Input:** letters = ["c","f","j"], target = "a"
+**Output:** "c"
+**Explanation:** The smallest character that is lexicographically greater than 'a' in letters is 'c'.
 
-```text
-'c'
-```
+**Input:** letters = ["c","f","j"], target = "c"
+**Output:** "f"
+**Explanation:** The smallest character that is lexicographically greater than 'c' in letters is 'f'.
 
-The letter `'c'` is the smallest letter in the array that is greater than `'a'`.
+**Input:** letters = ["x","x","y","y"], target = "z"
+**Output:** "x"
+**Explanation:** There are no characters in letters that is lexicographically greater than 'z' so we return letters[0].
 
-## Approach
+---
 
-The submitted code uses binary search because the `letters` array is sorted.
+## 🧠 Intuition & Approach
+1. Use binary search over the sorted characters array with `start = 0` and `end = letters.length - 1`.
+2. If `letters[mid] <= target`, the answer must lie to the right, so `start = mid + 1`.
+3. If `letters[mid] > target`, `letters[mid]` could be the answer, so look for smaller candidates on the left: `end = mid - 1`.
+4. After binary search completes, `start` points to the first character greater than `target`.
+5. Use modulo indexing `letters[start % letters.length]` to wrap around to index `0` if `target` is greater than or equal to all elements.
 
-The search looks for the first letter that is strictly greater than `target`:
+---
 
-- If `letters[mid]` is less than or equal to `target`, the answer must be to the right.
-- Otherwise, `letters[mid]` may be the answer, so the search continues on the left side.
-- After the loop, `start` points to the first letter greater than `target`.
-- The expression `start % letters.length` handles the wraparound case when no letter is greater than `target`.
-
-## Step-by-Step Explanation
-
-1. `start` is initialized to `0`, and `end` is initialized to the last index of the array.
-2. The `while` loop continues while `start <= end`.
-3. `mid` is calculated as the middle index:
-   ```java
-   int mid = start + (end - start) / 2;
-   ```
-4. If `letters[mid] <= target`, the current letter cannot be the answer because the answer must be strictly greater. The search moves right:
-   ```java
-   start = mid + 1;
-   ```
-5. Otherwise, `letters[mid]` is greater than the target, so it could be the answer. The search moves left to find a smaller valid letter:
-   ```java
-   end = mid - 1;
-   ```
-6. When the loop ends, `start` is the index of the first letter greater than `target`.
-7. The result is returned using:
-   ```java
-   letters[start % letters.length]
-   ```
-   If `start` equals `letters.length`, the modulo operation changes it to `0`, which correctly wraps around to the first letter.
-
-## Java Solution
+## 💻 Java Solution ([LeetCode_Problem744.java](../LeetCode_Problem744.java))
 
 ```java
 class LP744 {
@@ -88,14 +69,16 @@ class LP744 {
 }
 ```
 
-## Complexity
+---
 
-- **Time Complexity:** `O(log n)` because binary search repeatedly halves the search range.
-- **Space Complexity:** `O(1)` because the algorithm uses only a fixed number of variables.
+## ⏱️ Complexity Analysis
 
-## Key Learning
+| Metric | Complexity |
+|---|---|
+| **Time Complexity** | `O(log n)` |
+| **Space Complexity** | `O(1)` |
 
-- Binary search can efficiently find a position in a sorted array.
-- Moving left after finding a valid value helps locate the smallest valid answer.
-- The modulo operator can be used to implement circular wraparound.
-- Comparisons with `<=` are important when the answer must be strictly greater than the target.
+---
+
+### 👨‍💻 Author
+Solved by **[Vivek Awasthi](https://github.com/vivekawasthi2007)**

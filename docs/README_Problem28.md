@@ -1,67 +1,41 @@
-﻿# Problem 28: LeetCode Problem 28
+# 🧩 Problem 28: Find the Index of the First Occurrence in a String
 
-- **LeetCode:** [Problem 28 - LeetCode Problem 28](https://leetcode.com/problemset/)
-- **Difficulty:** 
-- **Topics:** 
+[![LeetCode](https://img.shields.io/badge/LeetCode-Problem_28-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+[![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)](#)
+[![Language](https://img.shields.io/badge/Language-Java-ED8B00?logo=openjdk&logoColor=white)](#)
 
-## Problem Statement
+## 📌 Problem Statement
+Given two strings `needle` and `haystack`, return the index of the first occurrence of `needle` in `haystack`, or `-1` if `needle` is not part of `haystack`.
 
-Given two strings, `haystack` and `needle`, find the index of the first occurrence of `needle` within `haystack`.
+🔗 **LeetCode Link:** [Find the Index of the First Occurrence in a String - LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
-Return the starting index of the first matching occurrence. If `needle` does not appear in `haystack`, return `-1`.
+---
 
-## Example
+## 🏷️ Topics
+`Two Pointers` `String` `String Matching`
 
-**Input:**
+---
 
-```text
-haystack = "sadbutsad"
-needle = "sad"
-```
+## 💡 Examples
+**Input:** haystack = "sadbutsad", needle = "sad"
+**Output:** 0
+**Explanation:** "sad" occurs at index 0 and 6. The first occurrence is at index 0.
 
-**Output:**
+**Input:** haystack = "leetcode", needle = "leeto"
+**Output:** -1
+**Explanation:** "leeto" did not occur in "leetcode", so we return -1.
 
-```text
-0
-```
+---
 
-The substring `"sad"` first appears in `haystack` starting at index `0`.
+## 🧠 Intuition & Approach
+1. Check every potential starting index `i` in `haystack` from `0` to `n - m`.
+2. For each starting index, compare characters between `haystack` and `needle` one by one.
+3. If all characters match (`j == m`), return starting index `i`.
+4. If no complete match is found across all positions, return `-1`.
 
-## Approach
+---
 
-The code uses a straightforward brute-force substring search.
-
-It checks every possible starting position in `haystack`. For each position, it compares the characters in `haystack` with the characters in `needle` one by one.
-
-- If all characters match, the current starting index is returned.
-- If a mismatch occurs, the code moves to the next possible starting position.
-- If no match is found, the method returns `-1`.
-
-## Step-by-Step Explanation
-
-1. Store the lengths of the two strings:
-   - `n` is the length of `haystack`.
-   - `m` is the length of `needle`.
-
-2. Use a `for` loop to check each possible starting index `i` in `haystack`.
-
-3. The loop continues while `i <= n - m`, ensuring that enough characters remain in `haystack` to compare with `needle`.
-
-4. Set `j` to `0`. This variable tracks the current character being compared in `needle`.
-
-5. The `while` loop compares:
-   - `haystack.charAt(i + j)`
-   - `needle.charAt(j)`
-
-   The comparison continues while the characters match and `j` is less than `m`.
-
-6. If all characters match, `j` becomes equal to `m`. The condition `j == m` is then true, so the method returns `i`.
-
-7. If no starting position produces a complete match, the method returns `-1`.
-
-8. The `main` method creates an `LP28` object, searches for `"sad"` in `"sadbutsad"`, and prints the result.
-
-## Java Solution
+## 💻 Java Solution ([LeetCode_Problem28.java](../LeetCode_Problem28.java))
 
 ```java
 class LP28 {
@@ -96,14 +70,16 @@ class LP28 {
 }
 ```
 
-## Complexity
+---
 
-- **Time Complexity:** `O((n - m + 1) * m)` in the worst case, commonly expressed as `O(n * m)`, where `n` is the length of `haystack` and `m` is the length of `needle`.
-- **Space Complexity:** `O(1)` because the algorithm uses only a few variables and does not allocate additional data structures.
+## ⏱️ Complexity Analysis
 
-## Key Learning
+| Metric | Complexity |
+|---|---|
+| **Time Complexity** | `O((n - m + 1) * m)` |
+| **Space Complexity** | `O(1)` |
 
-- Brute-force substring searching checks each possible starting position.
-- Nested loops can be used to compare two strings character by character.
-- Loop bounds can prevent unnecessary comparisons when the remaining portion is too short.
-- Returning as soon as a match is found avoids extra work.
+---
+
+### 👨‍💻 Author
+Solved by **[Vivek Awasthi](https://github.com/vivekawasthi2007)**
